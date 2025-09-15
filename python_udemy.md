@@ -14,9 +14,9 @@ python provides built in data types are : integers(int), floats, strings(str), b
 
 
 # Variables
-    Rules for Naming Variables:
-        Must start with a letter (a-z, A-Z) or an underscore (_).​
-        Case-sensitive (name, Name, and NAME are different variables).
+# Rules for Naming Variables:
+    Must start with a letter (a-z, A-Z) or an underscore (_).​
+    Case-sensitive (name, Name, and NAME are different variables).
 
 
 # Python/String Operators
