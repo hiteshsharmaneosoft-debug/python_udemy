@@ -66,3 +66,32 @@ python provides built in data types are : integers(int), floats, strings(str), b
 
 ## Input function : input()
     - Converting Input to Integers
+
+
+<!-- (17/09/2025) -->
+## Operators
+    1. Comparison operators
+        - Equal to (==)
+        - Not equal to (!=)
+        - Greater than (>)
+        - Less than (<)
+        - Greater than or equal to (>=)
+        - Less than or equal to (<=)
+    2. Logical operators
+        - and : Return True if both operands are True
+        - or : Return True if atleast one operand is True
+        - not : Return the opposite boolean value
+
+## Python Function
+    1. Built-in-function:
+        - Type conversion : str(), int(), float()
+        - Numeric operations: round(), sum(), min(), max()
+        - Object information: type(), len()
+    2. Created-function: the function that user needs to create is start with def keyword,
+        - Syntax is : def function_name():
+
+
+# Note :
+    - Install matplotlib : Its used to visualize data/output in a graphical representation, pip install matplotlib
+    - Import math module : Import the math module for advanced mathematical calculation
+
