@@ -1,5 +1,6 @@
 ## Python 
 
+
 # Data Types
 python provides built in data types are : integers(int), floats, strings(str), booleans(bool)
 
@@ -94,4 +95,58 @@ python provides built in data types are : integers(int), floats, strings(str), b
 # Note :
     - Install matplotlib : Its used to visualize data/output in a graphical representation, pip install matplotlib
     - Import math module : Import the math module for advanced mathematical calculation
+
+<!-- (18/09/2025) -->
+
+# List
+    - Examples:
+        numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        print(numbers[2:6])  # Output: [3, 4, 5, 6]
+
+        vegetables = ['carrot', 'potato']
+        fruits = ['apple', 'orange']
+        combined = vegetables + fruits
+        print(combined)   # Output: ['carrot', 'potato', 'apple', 'orange']
+
+        fruits.append('banana')  # Adding new list
+        print(fruits)  # Output: ['apple', 'orange', 'banana']
+
+    - Nesting List:
+        # List of Students
+        students = [
+            ['John', [85, 75, 98]],
+            ['Joy' , [43, 65, 87]],
+            ['Jay', [65. 89, 41]]
+        ]
+
+# Dictionaries 
+    - Written in key-value pair.
+    - Examples:
+        person = {"name": "Suraj", "age": 24}
+        print(person["name"])  # Output: Suraj
+
+        person["email"] = "john@gmail.com"   # Adding new key-value pair
+        person["age"] = 33  # Modify the existing value
+
+# Tuples : 
+    - Tuple is immutable, means once created it cannot be change or modify.
+    - Examples:
+        person = ("John", 25, "NY")
+        print(person[0])  
+    
+    - Tuple is used for packing & unpacking
+        cordinates = (10, 20, 30)
+        x, y, z = cordinates
+        print(x)  # Output: 10
+
+# set:
+    - Unordered, unique elements only.
+    - Examples:
+        my_set = {1, 2, 2, 3}
+        print(my_set)  # Output: {1, 2, 3}
+
+# type() function
+    To check or display the type of values i.e., string,float,etc that we are passing.
+
+# if-else, for loop, while loop
 
