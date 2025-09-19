@@ -150,3 +150,42 @@ python provides built in data types are : integers(int), floats, strings(str), b
 
 # if-else, for loop, while loop
 
+
+<!-- (19/09/2025) -->
+
+# Intoduction to Scripting
+    - Absolute path
+    - Relative path
+    - Iteration & Comprehensions : Used to process multiple items or repeat tasks.
+        - Iteration Protocol
+        - List Comprehensions
+        - enumerate() function
+    - Questions:
+        1. What is a relative path relative to?
+            - A relative path is relative to the current working directory.
+        2. What does an absolute path start with?
+            - An absolute path starts with the root directory (e.g., C:\ on Windows or / on Unix-based systems).
+        3. What are the . and .. folders?
+            - . refers to the current directory, and .. refers to the parent directory.
+        4. In C:\py\file1.txt, which part is the dir name, and which part is the base name?
+            - C:\py is the directory name, and file1.txt is the base name.
+        5. What are the three “mode” arguments that can be passed to the open() function?
+            - The three modes are 'r' (read), 'w' (write), and 'a' (append).
+        6. What happens if an existing file is opened in write mode?
+            - If a file is opened in write mode ('w'), its contents are erased and the file is overwritten.
+        7. What is the difference between the read() and readlines() methods?
+            - read() reads the entire content of the file as a single string, while readlines() reads the file line by line into a list of strings.
+
+# Text Editor 
+    - cat: Used to display the content of a file.
+    - nano: A simple terminal-based text editor.
+    - vi or vim: Vim is an improved version of vi, a powerful terminal-based text editor
+    - touch: Used to create an empty file or update the timestamp of an existing file.
+
+    - cp (Copy): Copies a file or directory to another location. The original file remains unchanged.
+        - cp source.txt destination.txt
+    - mv (Move): Moves a file or directory to another location. The original file is removed after being moved.
+        - mv source.txt destination.txt
+
+
+
